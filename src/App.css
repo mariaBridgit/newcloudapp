@@ -1,0 +1,236 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Page{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 20px ;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #F5F5F5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.Header{
+  background-color: #FF7619;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px 8px;    
+}
+
+.BottomHeader{
+  background-color: #FF7619;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px 10px;
+  font-size: 12px;
+}
+
+.TopHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.Logo {
+  background-image: url(./cloudlogo.png);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Title{
+  color: #fff;
+  line-height: 10px;
+}
+
+.Title h1{
+  font-size: 22px;
+  padding: 5px 15px 5px;
+  font-weight: 600;
+}
+
+.Title h3{
+  font-size: 18px;
+  padding: 0px 15px 0px;
+  font-weight: 500;
+}
+
+.Title p{
+  font-size: 15px;
+  padding: 0px 15px 0px;
+  font-weight: 350;
+  line-height: 5px;
+}
+
+.Statistics{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 445px;
+  height: 110px;
+  margin: 5px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.Values{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.Values h3{
+  color: #FF9500;
+  font-size: 18px;
+  line-height: 0.5rem;
+  padding-left: 7px;
+}
+.Values div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 5px;
+}
+
+.statsValue{
+  height: 50px;
+  width: 70px;
+
+}
+.statsValue h3{
+  font-size: 12px;
+  line-height: 0.75rem;
+  font-weight: 500;  
+  padding-left: 5px;  
+}
+.statsValue h1{
+  font-size: 16px;  
+}
+
+.TeamsNo{
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 8px;
+  height: 110px;
+  width: 100px;
+}
+
+.TeamsNo h3{
+  color: #FF9500;
+  padding-left: 15px;
+  line-height: 1rem;
+}
+
+.TeamsNo h1{
+  color: #000;
+  font-size: 40px;
+  font-weight: 750;
+  padding: 3px 15px 0px;
+  line-height: 1rem;
+}
+
+.NewProject button{
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.searchBar{
+  background-color: transparent;
+  height:28px;
+  width: 185px;
+  padding: 5px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  border-bottom: 1px solid #fff;  
+}
+
+.Dropdown{
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent;
+    margin-left: 20px;
+    padding-right:15px ;
+}
+
+.Dropdown select{
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent;
+    padding: 5px;
+}
+
+.Dropdown select option{
+  background-color: #ffffff;
+  color: #000;
+  font-size: 13px;
+}
+
+
+.ProjectCard{
+  background-color: #fff;
+  width: 400px;
+  height: 255px;
+  padding: 20px;
+  box-shadow: 2.5px 2.5px 15px rgb(218, 218, 218);
+  border-radius: 7px;    
+  text-underline-offset: 3.5px;
+  margin: 15px 15px;
+}
+
+.ProjectCard div{    
+  border-left: 5px solid;
+  padding-left: 10px;
+  align-items: center;
+  height: 200px;
+}
+
+.ProjectCard h1{
+  line-height: 1rem;
+  text-align: right;
+  font-size: 20px;
+}
+
+.ProjectCard h2{
+  text-decoration:underline;
+  font-size: 18px;    
+  text-decoration-color: gray;
+}
+
+.ProjectCard h3{
+  font-size: 15px;
+}
+
+.ProjectCard h4{
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 1.75rem;    
+  text-decoration:underline;    
+  text-decoration-color: gray;
+}
+

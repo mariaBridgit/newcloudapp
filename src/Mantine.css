@@ -1,0 +1,15 @@
+.mantine-Select-label{
+    padding: 10px 0px
+  }
+
+.mantine-TextInput-label{
+    padding: 10px 0px
+  }
+
+.mantine-Textarea-label{
+    padding: 10px 0px;
+}
+
+.mantine-Textarea-input{
+    height: 100px;
+}
